@@ -1,0 +1,12 @@
+{
+  "fmt": {
+    "options": {
+      "semiColons": true
+    }
+  },
+  "tasks": {
+    "deploy": "deno run --unstable -A manager/main.ts deploy",
+    "check": "deno run --unstable -A manager/main.ts check",
+    "rm": "deno run --unstable -A manager/remove.ts"
+  }
+}
